@@ -73,7 +73,7 @@ git status: Để check trạng thái của những file bạn đã thay đổi 
 git push/git pull: Push hoặc Pull các thay đổi đến remote.\
 git branch: liệt kê các brnach\
 git checkout chuyển sang các bracnh khác\
-git merge: Merge 2 branch lại với nhau.\
+git merge: Merge 2 branch lại với nhau.
 
 # 5 Cài đặt SSH lên máy tính window (local)?
 

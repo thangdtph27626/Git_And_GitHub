@@ -93,12 +93,12 @@ tiếp theo bạn cd vào ổ C trên máy tính
 
 ![image](https://user-images.githubusercontent.com/109157942/195602646-fc2b92a0-0fb3-4a23-9037-06eec2db58f7.png)
 
- tiếp tục khởi tạo key nhập câu lệnh: cat + nơi lưu key
+ tiếp tục khởi tạo key nhập câu lệnh: cat + nơi lưu id_rsa.pub
 
 ![image](https://user-images.githubusercontent.com/109157942/195603121-10b9d3af-bf52-4d15-b9a2-223342c7ff2b.png)
 
 
-> lưu ý bạn có thể nhìn thấy key tại đây 
+> lưu ý bạn có thể nhìn thấy nơi  id_rsa.pub tại đây 
 
 ![image](https://user-images.githubusercontent.com/109157942/195603041-8cc6cba9-6c05-43cc-ab31-98898d186524.png)
 

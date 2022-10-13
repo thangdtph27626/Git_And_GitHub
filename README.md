@@ -83,14 +83,38 @@ git merge: Merge 2 branch lại với nhau.
 
 ** cấu hình ssh-key **
 
-![image](https://user-images.githubusercontent.com/109157942/194510538-4559a7b7-6e9b-4e16-8a1c-1ee6cf877263.png)
+ mở git bash trên máy tính 
+ 
+cấu hình ssh bằng câu lệnh: ssh-keygen
 
- chọn setting > Developer settings > Personal access tokens > New personal access token > nhập tên note > chọn các quyền ssh > Generate token
- 
- Kiểm tra cấu hình ssh lên trên máy và github: ssh-T git@github.com
- 
- ![image](https://user-images.githubusercontent.com/109157942/194510754-dc656a44-8744-4b1c-84c6-aae95c65df54.png)
- 
+ ![image](https://user-images.githubusercontent.com/109157942/195602358-af92e829-b1b9-4d77-81f5-74ff104b618c.png)
+
+tiếp theo bạn cd vào ổ C trên máy tính
+
+![image](https://user-images.githubusercontent.com/109157942/195602646-fc2b92a0-0fb3-4a23-9037-06eec2db58f7.png)
+
+ tiếp tục khởi tạo key nhập câu lệnh: cat + nơi lưu key
+
+![image](https://user-images.githubusercontent.com/109157942/195603121-10b9d3af-bf52-4d15-b9a2-223342c7ff2b.png)
+
+
+> lưu ý bạn có thể nhìn thấy key tại đây 
+
+![image](https://user-images.githubusercontent.com/109157942/195603041-8cc6cba9-6c05-43cc-ab31-98898d186524.png)
+
+tiếp theo thực hiện cài ssh trên github
+
+setting -> SSH and GPG key -> new key 
+
+![image](https://user-images.githubusercontent.com/109157942/195603454-4338e154-72fc-44ca-a53d-b23d06462912.png)
+
+tại đây bạn nhập tên key và add key vừa được khởi tạo 
+
+vd: 
+
+![image](https://user-images.githubusercontent.com/109157942/195603927-36240c27-5ad6-4222-8283-23ab52c79d53.png)
+
+
  # 6: Thiết Lập Username và Email trong git?
  
  Bước 1: Khởi Động Cửa Sổ Dòng Lệnh Hoặc Git Bash
